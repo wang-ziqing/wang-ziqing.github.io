@@ -6,6 +6,7 @@
   const controls = document.getElementById("publication-controls");
   const buttons = [...document.querySelectorAll("[data-topic]")];
   const papers = [...document.querySelectorAll("#publication-list .zw-paper")];
+  const yearSections = [...document.querySelectorAll("#publication-list .zw-publication-year")];
   const count = document.getElementById("publication-count");
   const empty = document.getElementById("publication-empty");
   const reset = document.getElementById("publication-reset");
@@ -33,6 +34,9 @@
       if (match) visible += 1;
     }
     buttons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.topic === topic)));
+    yearSections.forEach((section) => {
+      section.hidden = ![...section.querySelectorAll(".zw-paper")].some((paper) => !paper.hidden);
+    });
     count.textContent = `${visible} of ${papers.length} publications`;
     empty.hidden = visible !== 0;
     if (writeUrl) {
