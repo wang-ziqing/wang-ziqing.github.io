@@ -1,5 +1,27 @@
 [
   {
+    "id": "p27",
+    "title": "Engineering Low-Temperature Aqueous Zn Metal Batteries via Coupled Regulation of Water H-Bonding, Facet-Selective Deposition, and Hydrophobic SEI Formation",
+    "authors": "Xie, X., Feng, C., Wang, Z.*, Duan, H., Li, L., Zhao, Q., Pan, A., Fang, G.*",
+    "journal": "Nano Mater. Sci.",
+    "year": 2026,
+    "detail": "Available online",
+    "doi": "10.1016/j.nanoms.2026.07.004",
+    "tags": ["batteries", "electrolytes", "interfaces"],
+    "selected": false
+  },
+  {
+    "id": "p26",
+    "title": "Electrochemically Co-Intercalated Graphitic Carbon Paper Enables Uniform and Highly Reversible Sodium Metal Plating",
+    "authors": "Vaidyula, R. R., Matthews, K. C., Peterson, J., Markandaraj, S. S., Wang, Z., Dixit, A., Celio, H., Dolocan, A., Warner, J. H., Mullins, C. B.*",
+    "journal": "Chem. Eng. J.",
+    "year": 2026,
+    "detail": "546: 179330",
+    "doi": "10.1016/j.cej.2026.179330",
+    "tags": ["batteries", "interfaces"],
+    "selected": false
+  },
+  {
     "id": "p25",
     "title": "Design Principles, Interfacial Regulation, and AI-Guided Opportunities of Hydrogel Electrolytes for Zinc Metal Batteries in Extreme Conditions",
     "authors": "Xie, X., Feng, C., Duan, H., Tao, S., Liang, S., Wang, Z.*, Fang, G.*",
@@ -7,7 +29,7 @@
     "year": 2026,
     "detail": "19(15): 4838-4872",
     "doi": "10.1039/d6ee02337a",
-    "tags": ["batteries", "electrolytes", "interfaces", "ai"],
+    "tags": ["batteries", "electrolytes", "interfaces"],
     "selected": true
   },
   {
