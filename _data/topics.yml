@@ -12,3 +12,5 @@
   label: Mass transport
 - id: biomaterials
   label: Biomaterials
+- id: ai
+  label: Artificial Intelligence (AI)
