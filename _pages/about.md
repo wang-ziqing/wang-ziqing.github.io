@@ -28,10 +28,13 @@ My doctoral work developed electrolyte-design strategies for aqueous zinc metal 
 <div class="zw-links">
   <a href="{{ '/assets/pdf/Ziqing_Wang_CV.pdf' | relative_url }}">Download CV</a>
   <a href="{{ site.data.metrics.scholar_url }}">Google Scholar ↗</a>
+  <a href="https://orcid.org/0000-0001-7746-0409">ORCID ↗</a>
+  <a href="https://www.linkedin.com/in/ziqing-wang-a581741a2/">LinkedIn ↗</a>
   <a href="mailto:wangzq@engineering.upenn.edu">Email</a>
 </div>
 
-<div class="zw-metrics" aria-label="Google Scholar metrics">
+<div class="zw-metrics" aria-label="Academic metrics">
+  <div><strong>{{ site.data.publications | size }}</strong><span>Publications</span></div>
   <div><strong>{{ site.data.metrics.citations }}</strong><span>Citations</span></div>
   <div><strong>{{ site.data.metrics.h_index }}</strong><span>h-index</span></div>
   <div><strong>{{ site.data.metrics.i10_index }}</strong><span>i10-index</span></div>
