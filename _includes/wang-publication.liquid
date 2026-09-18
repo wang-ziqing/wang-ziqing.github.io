@@ -1,17 +1,24 @@
-<article class="zw-paper" id="{{ include.paper.id }}" data-tags="{{ include.paper.tags | join: ' ' }}">
-  <div class="zw-paper-meta">{{ include.paper.year }} · {{ include.paper.journal | escape }}</div>
-  <h3>
-    <a href="https://doi.org/{{ include.paper.doi | escape }}">{{ include.paper.title | escape }}</a>
-  </h3>
-  <p class="zw-authors">{{ include.paper.authors | escape | replace: 'Wang, Z.', '<strong>Wang, Z.</strong>' }}</p>
-  <p class="zw-citation">
-    <em>{{ include.paper.journal | escape }}</em>, {{ include.paper.year }}, {{ include.paper.detail | escape }}.
-  </p>
-  <div class="zw-tags">
-    {% for tag in include.paper.tags %}
-      {% assign topic = site.data.topics | where: 'id', tag | first %}
-      <a class="zw-tag zw-{{ tag }}" href="{{ '/publications/' | relative_url }}?topic={{ tag }}">{{ topic.label }}</a>
-    {% endfor %}
-    <a class="zw-doi" href="https://doi.org/{{ include.paper.doi | escape }}">DOI ↗</a>
+<article class="zw-paper{% if include.paper.image %} zw-paper-with-image{% endif %}" id="{{ include.paper.id }}" data-tags="{{ include.paper.tags | join: ' ' }}">
+  {% if include.paper.image %}
+    <a class="zw-paper-thumb" href="https://doi.org/{{ include.paper.doi | escape }}" aria-label="Open {{ include.paper.title | escape }}">
+      <img src="{{ include.paper.image | relative_url }}" alt="TOC graphic for {{ include.paper.title | escape }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="zw-paper-body">
+    <h3>
+      {% if include.number %}<span class="zw-paper-number">{{ include.number }}.</span>{% endif %}
+      <a href="https://doi.org/{{ include.paper.doi | escape }}">{{ include.paper.title | escape }}</a>
+    </h3>
+    <p class="zw-authors">{{ include.paper.authors | escape | replace: 'Wang, Z.', '<strong>Wang, Z.</strong>' }}</p>
+    <p class="zw-citation">
+      <em>{{ include.paper.journal | escape }}</em>, {{ include.paper.year }}, {{ include.paper.detail | escape }}.
+    </p>
+    <div class="zw-tags">
+      {% for tag in include.paper.tags %}
+        {% assign topic = site.data.topics | where: 'id', tag | first %}
+        <a class="zw-tag zw-{{ tag }}" href="{{ '/publications/' | relative_url }}?topic={{ tag }}">{{ topic.label }}</a>
+      {% endfor %}
+      <a class="zw-doi" href="https://doi.org/{{ include.paper.doi | escape }}">DOI ↗</a>
+    </div>
   </div>
 </article>
