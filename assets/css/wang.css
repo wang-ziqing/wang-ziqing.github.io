@@ -28,7 +28,7 @@ html[data-theme="dark"] {
 .zw-metrics {
   clear: both;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 1.25rem 0;
   margin-top: 2rem;
   border-top: 1px solid var(--global-divider-color, #ddd);
@@ -235,17 +235,7 @@ html[data-theme="dark"] {
     grid-template-columns: 1fr;
   }
   .zw-metrics {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .zw-metrics > div:nth-child(2) {
-    border-right: 0;
-  }
-  .zw-metrics > div:nth-child(-n + 2) {
-    padding-bottom: 0.9rem;
-    border-bottom: 1px solid var(--global-divider-color, #ddd);
-  }
-  .zw-metrics > div:nth-child(n + 3) {
-    padding-top: 0.9rem;
+    grid-template-columns: repeat(3, 1fr);
   }
   .zw-metrics strong {
     font-size: 1.35rem;
