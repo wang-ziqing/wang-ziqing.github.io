@@ -1,4 +1,11 @@
-/* Site-specific additions; al-folio still owns layout, typography and themes. */
+/* Site-specific additions; al-folio still owns layout and typography. */
+:root,
+html[data-theme="light"],
+html[data-theme="dark"] {
+  --global-theme-color: #bf5700;
+  --global-hover-color: #9d4700;
+}
+
 .zw-note,
 .zw-paper-meta,
 .zw-authors,
@@ -21,7 +28,7 @@
 .zw-metrics {
   clear: both;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 1.25rem 0;
   margin-top: 2rem;
   border-top: 1px solid var(--global-divider-color, #ddd);
@@ -226,6 +233,19 @@
 @media (max-width: 680px) {
   .zw-research-grid {
     grid-template-columns: 1fr;
+  }
+  .zw-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .zw-metrics > div:nth-child(2) {
+    border-right: 0;
+  }
+  .zw-metrics > div:nth-child(-n + 2) {
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--global-divider-color, #ddd);
+  }
+  .zw-metrics > div:nth-child(n + 3) {
+    padding-top: 0.9rem;
   }
   .zw-metrics strong {
     font-size: 1.35rem;
