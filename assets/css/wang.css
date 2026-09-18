@@ -88,6 +88,12 @@
   color: var(--global-theme-color);
   font-weight: 600;
 }
+.zw-news li {
+  grid-template-columns: 5.5rem 1fr;
+}
+.zw-news .zw-year {
+  font-weight: 700;
+}
 .zw-paper {
   padding: 1.2rem 0;
   border-bottom: 1px solid var(--global-divider-color, #ddd);
@@ -156,10 +162,6 @@
 .zw-biomaterials {
   color: #565a63;
   background: #edeef1;
-}
-.zw-ai {
-  color: #8a3b12;
-  background: #ffe8d6;
 }
 .zw-tag:hover {
   color: inherit;
