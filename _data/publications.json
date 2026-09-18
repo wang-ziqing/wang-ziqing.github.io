@@ -1,7 +1,6 @@
 [
   {
     "id": "p27",
-    "image": "/assets/img/publications/p27-toc.webp",
     "title": "Engineering Low-Temperature Aqueous Zn Metal Batteries via Coupled Regulation of Water H-Bonding, Facet-Selective Deposition, and Hydrophobic SEI Formation",
     "authors": "Xie, X., Feng, C., Wang, Z.*, Duan, H., Li, L., Zhao, Q., Pan, A., Fang, G.*",
     "journal": "Nano Mater. Sci.",
@@ -25,6 +24,7 @@
   },
   {
     "id": "p25",
+    "image": "/assets/img/publications/p27-toc.webp",
     "title": "Design Principles, Interfacial Regulation, and AI-Guided Opportunities of Hydrogel Electrolytes for Zinc Metal Batteries in Extreme Conditions",
     "authors": "Xie, X., Feng, C., Duan, H., Tao, S., Liang, S., Wang, Z.*, Fang, G.*",
     "journal": "Energy Environ. Sci.",
@@ -36,7 +36,7 @@
   },
   {
     "id": "p24",
-    "image": "/assets/img/publications/p24-toc.webp",
+    "image": "/assets/img/publications/p20-toc.webp",
     "title": "Beyond Conventional Methods for Evaluating Charge Transfer Kinetics in Aqueous Zinc-Ion Batteries: Insights from Ultramicroelectrode Voltammetry and Marcus-Hush Theory",
     "authors": "Wang, Z., Kawashima, K., Mullins, C. B.*",
     "journal": "ACS Energy Lett.",
@@ -48,7 +48,7 @@
   },
   {
     "id": "p23",
-    "image": "/assets/img/publications/p23-toc.webp",
+    "image": "/assets/img/publications/p14-toc.webp",
     "title": "High-Entropy Electrolyte Driven by Multi-Solvation Structures for Long-Lifespan Aqueous Zinc Metal Pouch Cells",
     "authors": "Wang, Z., Diao, J., Vaidyula, R., Henkelman, G., Mullins, C. B.*",
     "journal": "Angew. Chem. Int. Ed.",
@@ -60,6 +60,7 @@
   },
   {
     "id": "p22",
+    "image": "/assets/img/publications/p15-toc.webp",
     "title": "Mass Transfer Limitation within Molecular Crowding Electrolyte Reorienting (100) and (101) Texture for Dendrite-Free Zinc Metal Batteries",
     "authors": "Wang, Z., Wang, J., Kawashima, K., Liu, Z., Henkelman, G., Mullins, C. B.*",
     "journal": "Angew. Chem. Int. Ed.",
@@ -71,7 +72,7 @@
   },
   {
     "id": "p21",
-    "image": "/assets/img/publications/p21-toc.webp",
+    "image": "/assets/img/publications/p16-toc.webp",
     "title": "Anion-Regulated Electric Double Layer and Progressive Nucleation Enable Uniform and Nanoscale Zn Deposition for Aqueous Zinc-Ion Batteries",
     "authors": "Wang, Z., Diao, J., Henkelman, G., Mullins, C. B.*",
     "journal": "Adv. Funct. Mater.",
@@ -83,7 +84,7 @@
   },
   {
     "id": "p20",
-    "image": "/assets/img/publications/p20-toc.webp",
+    "image": "/assets/img/publications/p17-toc.webp",
     "title": "Chaotropic Salt-Aided “Water-in-Organic” Electrolyte for Highly Reversible Zinc-Ion Batteries across a Wide Temperature Range",
     "authors": "Wang, Z., Diao, J., Burrow, J. N., Brotherton, Z. W., Lynd, N. A., Henkelman, G., Mullins, C. B.*",
     "journal": "Adv. Funct. Mater.",
@@ -95,7 +96,7 @@
   },
   {
     "id": "p19",
-    "image": "/assets/img/publications/p19-toc.webp",
+    "image": "/assets/img/publications/p09-toc.webp",
     "title": "Urea-Modified Ternary Aqueous Electrolyte with Tuned Intermolecular Interactions and Confined Water Activity for High-Stability and High-Voltage Zinc-Ion Batteries",
     "authors": "Wang, Z., Diao, J., Burrow, J. N., Reimund, K. K., Katyal, N., Henkelman, G., Mullins, C. B.*",
     "journal": "Adv. Funct. Mater.",
@@ -119,7 +120,7 @@
   },
   {
     "id": "p17",
-    "image": "/assets/img/publications/p17-toc.webp",
+    "image": "/assets/img/publications/p21-toc.webp",
     "title": "Sandwich-Structured Aqueous Electrolyte with Water-Content Gradient for Enhanced Longevity and Reaction Kinetics in Zinc Metal Batteries",
     "authors": "Wang, Z., Mullins, C. B.*",
     "journal": "ChemSusChem",
@@ -131,7 +132,6 @@
   },
   {
     "id": "p16",
-    "image": "/assets/img/publications/p16-toc.webp",
     "title": "Enhanced Interfacial Stability through Solvation Engineering in High-Entropy Electrolyte for Zinc Metal Batteries",
     "authors": "Wang, Z.",
     "journal": "Electrochem. Soc. Interface",
@@ -143,7 +143,7 @@
   },
   {
     "id": "p15",
-    "image": "/assets/img/publications/p15-toc.webp",
+    "image": "/assets/img/publications/p23-toc.webp",
     "title": "Enhanced Interfacial Stability and Reaction Kinetics through Solvation Engineering and Water-Induced Hydrolysis in Zinc Metal Batteries",
     "authors": "Wang, Z., Diao, J., Vaidyula, R. R., Henkelman, G., Mullins, C. B.*",
     "journal": "Small Methods",
@@ -155,7 +155,7 @@
   },
   {
     "id": "p14",
-    "image": "/assets/img/publications/p14-toc.webp",
+    "image": "/assets/img/publications/p10-toc.webp",
     "title": "Unveiling the Reaction Mechanism of Capacity Reactivation in Silver Vanadate Cathode for Aqueous Zinc-Ion Batteries",
     "authors": "Wang, Z., Diao, J., Kawashima, K., Weeks, J. A., Vaidyula, R. R., Marquez, R. A., Miller, N., Henkelman, G., Mullins, C. B.*",
     "journal": "J. Mater. Chem. A",
@@ -167,6 +167,7 @@
   },
   {
     "id": "p13",
+    "image": "/assets/img/publications/p24-toc.webp",
     "title": "Templated Freeze-Casting for Porous Organic Battery Electrodes with High-Rate Capabilities",
     "authors": "Vaidyula, R. R., Kawashima, K., Brotherton, Z., Fuller, R. F., III, Wang, Z., Lynd, N. A., Mullins, C. B.*",
     "journal": "Adv. Funct. Mater.",
@@ -178,7 +179,7 @@
   },
   {
     "id": "p12",
-    "image": "/assets/img/publications/p12-toc.webp",
+    "image": "/assets/img/publications/p19-toc.webp",
     "title": "Binary Solvent Induced Stable Interphase Layer for Ultra-Long Life Sodium Metal Batteries",
     "authors": "Vaidyula, R. R., Nguyen, M. H., Weeks, J. A., Wang, Y., Wang, Z., Kawashima, K., Paul-Orecchi, A. G., Dolocan, A., Celio, H., Henkelman, G., Mullins, C. B.*",
     "journal": "Adv. Mater.",
@@ -202,7 +203,7 @@
   },
   {
     "id": "p10",
-    "image": "/assets/img/publications/p10-toc.webp",
+    "image": "/assets/img/publications/p12-toc.webp",
     "title": "Constructing Ionic Self-Concentrated Electrolyte via Introducing Montmorillonite Toward High-Performance Aqueous Zn-MnO2 Batteries",
     "authors": "Yang, L., Zhang, T., Liu, S., Wang, Z., Liu, Z., Cao, X., Fang, G., Liang, S.",
     "journal": "Small Methods",
@@ -214,7 +215,7 @@
   },
   {
     "id": "p9",
-    "image": "/assets/img/publications/p09-toc.webp",
+    "image": "/assets/img/publications/p08-toc.webp",
     "title": "Simultaneous Regulation of Cations and Anions in an Electrolyte for High-Capacity, High-Stability Aqueous Zinc–Vanadium Batteries",
     "authors": "Wang, Z., Zhou, M., Qin, L., Chen, M., Chen, Z., Guo, S., Wang, L., Fang, G.*, Liang, S.*",
     "journal": "eScience",
@@ -226,7 +227,7 @@
   },
   {
     "id": "p8",
-    "image": "/assets/img/publications/p08-toc.webp",
+    "image": "/assets/img/publications/p02-toc.webp",
     "title": "Synthesis of K0.25V2O5 Hierarchical Microspheres as A High-rate and Long-cycle Cathode for Lithium-Ion Batteries",
     "authors": "Chen, R.†, Wang, Z.†, Chen, Z., Wang, P., Fang, G., Zhou, J., Tan, X., Liang, S.*",
     "journal": "J. Alloys Compd.",
@@ -238,7 +239,6 @@
   },
   {
     "id": "p7",
-    "image": "/assets/img/publications/p07-toc.webp",
     "title": "Engineering A Drug Eluting Ocular Patch for Delivery and Sustained Release of Anti-Inflammatory Therapeutics",
     "authors": "Chen, X., Gholizadeh, S., Ghovvati, M., Wang, Z., Jellen, M. J., Mostafavi, A., Dana, R., Annabi, N.*",
     "journal": "AIChE J.",
@@ -262,7 +262,7 @@
   },
   {
     "id": "p5",
-    "image": "/assets/img/publications/p05-toc.webp",
+    "image": "/assets/img/publications/p07-toc.webp",
     "title": "Interfacial Adsorption–Insertion Mechanism Induced by Phase Boundary toward Better Aqueous Zn-Ion Battery",
     "authors": "Shan, L., Wang, Y., Liang, S., Tang, B., Yang, Y., Wang, Z., Lu, B.*, Zhou, J.*",
     "journal": "InfoMat",
@@ -274,7 +274,7 @@
   },
   {
     "id": "p4",
-    "image": "/assets/img/publications/p04-toc.webp",
+    "image": "/assets/img/publications/p03-toc.webp",
     "title": "Metal Organic Framework-Templated Synthesis of Bimetallic Selenides with Rich Phase Boundaries for Sodium-Ion Storage and Oxygen Evolution Reaction",
     "authors": "Fang, G., Wang, Q., Zhou, J., Lei, Y., Chen, Z., Wang, Z., Pan, A.*, Liang, S.*",
     "journal": "ACS Nano",
@@ -286,7 +286,7 @@
   },
   {
     "id": "p3",
-    "image": "/assets/img/publications/p03-toc.webp",
+    "image": "/assets/img/publications/p04-toc.webp",
     "title": "V2O5 Nanospheres with Mixed Vanadium Valences as High Electrochemically Active Aqueous Zinc-Ion Battery Cathode",
     "authors": "Liu, F., Chen, Z., Fang, G., Wang, Z., Cai, Y., Tang, B., Zhou, J., Liang, S.*",
     "journal": "Nano-Micro Lett.",
@@ -298,7 +298,7 @@
   },
   {
     "id": "p2",
-    "image": "/assets/img/publications/p02-toc.webp",
+    "image": "/assets/img/publications/p05-toc.webp",
     "title": "Electrochemically Induced Cationic Defect in MnO Intercalation Cathode for Aqueous Zinc-Ion Battery",
     "authors": "Zhu, C., Fang, G., Liang, S., Chen, Z., Wang, Z., Ma, J., Wang, H., Tang, B., Zheng, X., Zhou, J.*",
     "journal": "Energy Storage Mater.",
