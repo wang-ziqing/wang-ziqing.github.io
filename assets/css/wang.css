@@ -102,14 +102,58 @@ html[data-theme="dark"] {
   font-weight: 700;
 }
 .zw-paper {
-  padding: 1.2rem 0;
-  border-bottom: 1px solid var(--global-divider-color, #ddd);
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 0;
   scroll-margin-top: 6rem;
+}
+.zw-publication-year {
+  margin: 2rem 0 2.75rem;
+}
+.zw-year-heading {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.zw-year-heading > span {
+  border-top: 1px solid var(--global-theme-color);
+}
+.zw-year-heading h2 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+}
+.zw-paper-body {
+  flex: 1;
+  min-width: 0;
+}
+.zw-paper-thumb {
+  flex: 0 0 170px;
+  align-self: flex-start;
+}
+.zw-paper-thumb img {
+  display: block;
+  width: 170px;
+  height: 105px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--global-divider-color, #ddd);
+  border-radius: 4px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.13);
+}
+.zw-paper-number {
+  color: var(--global-theme-color);
+  display: inline-block;
+  font-weight: 700;
+  min-width: 2.2rem;
 }
 .zw-paper h3 {
   font-size: 1.05rem;
   line-height: 1.5;
-  margin: 0.3rem 0;
+  margin: 0 0 0.25rem;
 }
 .zw-paper h3 a {
   color: var(--global-text-color);
@@ -239,6 +283,18 @@ html[data-theme="dark"] {
   }
   .zw-metrics strong {
     font-size: 1.35rem;
+  }
+  .zw-paper {
+    display: block;
+  }
+  .zw-paper-thumb {
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  .zw-paper-thumb img {
+    width: min(100%, 240px);
+    height: auto;
+    max-height: 150px;
   }
 }
 @media print {
