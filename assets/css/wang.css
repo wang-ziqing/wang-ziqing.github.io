@@ -310,3 +310,8 @@ html[data-theme="dark"] {
 .post-header .post-title .font-weight-bold {
   font-weight: inherit !important;
 }
+
+/* Keep the first and last name at the same regular weight in the navbar. */
+.navbar-brand .font-weight-bold {
+  font-weight: inherit !important;
+}
