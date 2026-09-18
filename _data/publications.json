@@ -60,7 +60,6 @@
   },
   {
     "id": "p22",
-    "image": "/assets/img/publications/p22-toc.webp",
     "title": "Mass Transfer Limitation within Molecular Crowding Electrolyte Reorienting (100) and (101) Texture for Dendrite-Free Zinc Metal Batteries",
     "authors": "Wang, Z., Wang, J., Kawashima, K., Liu, Z., Henkelman, G., Mullins, C. B.*",
     "journal": "Angew. Chem. Int. Ed.",
@@ -132,6 +131,7 @@
   },
   {
     "id": "p16",
+    "image": "/assets/img/publications/p16-toc.webp",
     "title": "Enhanced Interfacial Stability through Solvation Engineering in High-Entropy Electrolyte for Zinc Metal Batteries",
     "authors": "Wang, Z.",
     "journal": "Electrochem. Soc. Interface",
@@ -167,7 +167,6 @@
   },
   {
     "id": "p13",
-    "image": "/assets/img/publications/p13-toc.webp",
     "title": "Templated Freeze-Casting for Porous Organic Battery Electrodes with High-Rate Capabilities",
     "authors": "Vaidyula, R. R., Kawashima, K., Brotherton, Z., Fuller, R. F., III, Wang, Z., Lynd, N. A., Mullins, C. B.*",
     "journal": "Adv. Funct. Mater.",
@@ -263,6 +262,7 @@
   },
   {
     "id": "p5",
+    "image": "/assets/img/publications/p05-toc.webp",
     "title": "Interfacial Adsorption–Insertion Mechanism Induced by Phase Boundary toward Better Aqueous Zn-Ion Battery",
     "authors": "Shan, L., Wang, Y., Liang, S., Tang, B., Yang, Y., Wang, Z., Lu, B.*, Zhou, J.*",
     "journal": "InfoMat",
