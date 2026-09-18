@@ -1,0 +1,235 @@
+/* Site-specific additions; al-folio still owns layout, typography and themes. */
+.zw-note,
+.zw-paper-meta,
+.zw-authors,
+.zw-citation,
+.zw-kicker {
+  color: var(--global-text-color-light, #62666d);
+  font-size: 0.88rem;
+}
+.zw-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.4rem 0;
+}
+.zw-links a {
+  border: 1px solid var(--global-theme-color);
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+}
+.zw-metrics {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.25rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid var(--global-divider-color, #ddd);
+  border-bottom: 1px solid var(--global-divider-color, #ddd);
+}
+.zw-metrics > div {
+  text-align: center;
+  border-right: 1px solid var(--global-divider-color, #ddd);
+}
+.zw-metrics > div:last-child {
+  border: 0;
+}
+.zw-metrics strong,
+.zw-metrics span {
+  display: block;
+}
+.zw-metrics strong {
+  font-size: 1.6rem;
+  color: var(--global-theme-color);
+}
+.zw-metrics span {
+  font-size: 0.9rem;
+}
+.zw-research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+.zw-research {
+  display: block;
+  padding: 1.15rem;
+  border: 1px solid var(--global-divider-color, #ddd);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 4px;
+}
+.zw-research h3 {
+  font-size: 1.18rem;
+  margin-top: 0.55rem;
+}
+.zw-research p {
+  color: var(--global-text-color);
+  font-size: 0.92rem;
+}
+.zw-research:hover {
+  text-decoration: none;
+  border-color: var(--global-theme-color);
+}
+.zw-research > span:last-child {
+  font-size: 0.85rem;
+}
+.zw-awards {
+  list-style: none;
+  padding: 0;
+}
+.zw-awards li {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--global-divider-color, #ddd);
+}
+.zw-year {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+.zw-paper {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--global-divider-color, #ddd);
+  scroll-margin-top: 6rem;
+}
+.zw-paper h3 {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0.3rem 0;
+}
+.zw-paper h3 a {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+.zw-paper h3 a:hover {
+  color: var(--global-theme-color);
+}
+.zw-paper p {
+  margin-bottom: 0.35rem;
+}
+.zw-tags,
+.zw-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: 0.65rem;
+}
+.zw-tag {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.76rem;
+  line-height: 1.6;
+  color: #424752;
+  background: #edf0f4;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.zw-batteries {
+  color: #225a90;
+  background: #e8f2fc;
+}
+.zw-electrocatalysis {
+  color: #825120;
+  background: #fff1db;
+}
+.zw-electrolytes {
+  color: #15645d;
+  background: #dff4ef;
+}
+.zw-interfaces {
+  color: #703c83;
+  background: #f2e8f8;
+}
+.zw-kinetics {
+  color: #8a3a53;
+  background: #fbe7ee;
+}
+.zw-transport {
+  color: #536720;
+  background: #edf3d9;
+}
+.zw-biomaterials {
+  color: #565a63;
+  background: #edeef1;
+}
+.zw-tag:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.zw-tag[aria-pressed="true"] {
+  border-color: currentColor;
+  box-shadow: 0 0 0 1px currentColor;
+  font-weight: 700;
+}
+[data-theme="dark"] .zw-tag {
+  filter: brightness(0.93);
+}
+.zw-doi {
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+}
+.zw-controls {
+  margin: 1.5rem 0;
+}
+.zw-controls label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.zw-controls input {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--global-divider-color, #aaa);
+  border-radius: 4px;
+  background: var(--global-bg-color, white);
+  color: var(--global-text-color);
+  font: inherit;
+}
+.zw-controls .zw-note {
+  margin: 0.8rem 0 0.2rem;
+}
+.zw-reset {
+  border: 0;
+  padding: 0.2rem 0;
+  background: transparent;
+  color: var(--global-theme-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+.zw-controls [hidden],
+.zw-paper[hidden],
+#publication-empty[hidden],
+#publication-controls[hidden] {
+  display: none !important;
+}
+.zw-tag:focus-visible,
+.zw-links a:focus-visible,
+.zw-research:focus-visible,
+.zw-controls input:focus-visible,
+.zw-reset:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+@media (max-width: 680px) {
+  .zw-research-grid {
+    grid-template-columns: 1fr;
+  }
+  .zw-metrics strong {
+    font-size: 1.35rem;
+  }
+}
+@media print {
+  .zw-controls {
+    display: none;
+  }
+  .zw-paper {
+    break-inside: avoid;
+  }
+}

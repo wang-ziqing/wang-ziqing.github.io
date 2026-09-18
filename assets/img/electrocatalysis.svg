@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title">
+  <title id="title">Electrocatalysis: local reaction environments, conceptual illustration</title>
+  <rect width="720" height="400" fill="#fbf2e7"/>
+  <path d="M145 265h430" stroke="#9a713e" stroke-width="8"/>
+  <g fill="#cfaa74"><circle cx="210" cy="245" r="22"/><circle cx="270" cy="245" r="22"/><circle cx="330" cy="245" r="22"/><circle cx="390" cy="245" r="22"/><circle cx="450" cy="245" r="22"/><circle cx="510" cy="245" r="22"/></g>
+  <g fill="none" stroke="#9a713e" stroke-width="4"><path d="M260 115v65m-12-12 12 12 12-12M455 180v-65m-12 12 12-12 12 12"/><circle cx="360" cy="150" r="18"/></g>
+  <text x="360" y="352" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#7d5a31">SURFACES · MICROENVIRONMENTS · REACTIVITY</text>
+</svg>
+

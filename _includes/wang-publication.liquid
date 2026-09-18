@@ -1,0 +1,17 @@
+<article class="zw-paper" id="{{ include.paper.id }}" data-tags="{{ include.paper.tags | join: ' ' }}">
+  <div class="zw-paper-meta">{{ include.paper.year }} · {{ include.paper.journal | escape }}</div>
+  <h3>
+    <a href="https://doi.org/{{ include.paper.doi | escape }}">{{ include.paper.title | escape }}</a>
+  </h3>
+  <p class="zw-authors">{{ include.paper.authors | escape | replace: 'Wang, Z.', '<strong>Wang, Z.</strong>' }}</p>
+  <p class="zw-citation">
+    <em>{{ include.paper.journal | escape }}</em>, {{ include.paper.year }}, {{ include.paper.detail | escape }}.
+  </p>
+  <div class="zw-tags">
+    {% for tag in include.paper.tags %}
+      {% assign topic = site.data.topics | where: 'id', tag | first %}
+      <a class="zw-tag zw-{{ tag }}" href="{{ '/publications/' | relative_url }}?topic={{ tag }}">{{ topic.label }}</a>
+    {% endfor %}
+    <a class="zw-doi" href="https://doi.org/{{ include.paper.doi | escape }}">DOI ↗</a>
+  </div>
+</article>
