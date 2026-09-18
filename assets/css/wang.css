@@ -305,3 +305,8 @@ html[data-theme="dark"] {
     break-inside: avoid;
   }
 }
+
+/* Keep the first and last name at the same regular weight in the About title. */
+.post-header .post-title .font-weight-bold {
+  font-weight: inherit !important;
+}
