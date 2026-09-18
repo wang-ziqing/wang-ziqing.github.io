@@ -55,7 +55,7 @@ My doctoral work developed electrolyte-design strategies for aqueous zinc metal 
 {% endfor %}
 </ul>
 
-[All news and recognition →]({{ '/news/' | relative_url }})
+[All awards and recognition →]({{ '/awards/' | relative_url }})
 
 ## Selected publications
 
