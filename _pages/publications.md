@@ -28,10 +28,20 @@ Search by title, author, journal, year, or research topic. Topic filters and sea
 
 <p class="zw-note">† Equal contribution; * corresponding author. Bibliographic details follow the supplied CV; online-publication and issue years may differ.</p>
 
-<div class="zw-publications" id="publication-list">
+<div class="zw-publications zw-publications-by-year" id="publication-list">
 {% assign papers = site.data.publications | sort: 'year' | reverse %}
-{% for paper in papers %}
-  {% include wang-publication.liquid paper=paper %}
+{% assign year_groups = papers | group_by: 'year' %}
+{% assign paper_number = papers | size %}
+{% for year_group in year_groups %}
+  <section class="zw-publication-year" data-publication-year="{{ year_group.name }}">
+    <div class="zw-year-heading"><span></span><h2>{{ year_group.name }}</h2></div>
+    <div class="zw-year-papers">
+    {% for paper in year_group.items %}
+      {% include wang-publication.liquid paper=paper number=paper_number %}
+      {% assign paper_number = paper_number | minus: 1 %}
+    {% endfor %}
+    </div>
+  </section>
 {% endfor %}
 </div>
 <p id="publication-empty" hidden>No publications match this combination. Try another keyword or clear the filters.</p>
